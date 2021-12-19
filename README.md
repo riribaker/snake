@@ -11,4 +11,4 @@ Rewards: the numerical representation of the outcome of each action in the envir
 
 In Q-learning, instead of explicitly learning a representation for transition probabilities between states, we let the agent observe its environment, choose an action, and obtain some reward.
 
-![Qupdate](file:///Users/rileybaker/Desktop/SS%202021-12-19%20at%208.07.53%20AM.png)
+![Qupdate](img/Qupdate.png)
