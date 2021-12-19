@@ -21,3 +21,8 @@ Our learning rate, 𝛼, controls how much our Q estimate should change with eac
 We now must implement an exploration policy to ensure some balancing between visiting states we haven't seen before and choosing the action with the maximal Q-value. 
 
 <img src="img/explorationPolicy.png" alt="exploration policy" width="350">
+
+An example run of training the Snake with 25000 games:
+https://user-images.githubusercontent.com/75760028/146681084-68a85697-54b1-405c-b6ea-1072cf2b0dd9.mov
+
+
