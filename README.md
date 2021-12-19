@@ -13,10 +13,10 @@ In Q-learning, instead of explicitly learning a representation for transition pr
 
 <img src="img/Qupdate.png" alt="Q-update formula" width="550">
 
-The Temporal Difference hyperparameter 𝜸 𝛾 allows us to "discount" future rewards, pushing the snake to obtain food quicker. 
+The Temporal Difference hyperparameter 𝜸 allows us to "discount" future rewards, pushing the snake to obtain food quicker. 
 Our learning rate, 𝛼, controls how much our Q estimate should change with each update. 
 
-<img src="img/learningParameter.png" alt="learning rate" width="350">
+<img src="img/learningParameter.png" alt="learning rate" width="150">
 
 We now must implement an exploration policy to ensure some balancing between visiting states we haven't seen before and choosing the action with the maximal Q-value. 
 
