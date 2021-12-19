@@ -11,5 +11,4 @@ Rewards: the numerical representation of the outcome of each action in the envir
 
 In Q-learning, instead of explicitly learning a representation for transition probabilities between states, we let the agent observe its environment, choose an action, and obtain some reward.
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-
+![Alt text](https://camo.githubusercontent.com/6c183cd0fcf753fa21f76d17168691c560813c2f5828f499a7f3b342389b7e08/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f78253344253543667261632537422d62253543706d2535437371727425374262253545322d3461632537442537442537423261253744)
