@@ -22,7 +22,7 @@ We now must implement an exploration policy to ensure some balancing between vis
 
 <img src="img/explorationPolicy.png" alt="exploration policy" width="350">
 
-An example run of training the Snake with 25000 games:
+An example run of training the Snake with 25000 games: <br />
 https://user-images.githubusercontent.com/75760028/146681084-68a85697-54b1-405c-b6ea-1072cf2b0dd9.mov
 
-
+Running Snake AI with: <br /> python3 main.py --snake_head_x 200 --snake_head_y 200 --food_x 80 --food_y 80 --Ne 40 --C 40 --gamma 0.7 --train_episodes 25000
