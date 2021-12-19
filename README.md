@@ -4,6 +4,7 @@ In this project, I trained an AI agent using temporal difference learning, more 
 
 # how it works
 We can define a MDP (Markov Decision Process) to model the Q-learning agent's movement within the environment.
-  States: the agent’s internal representation of the environment
-  Actions: the possible actions the agent can take in the environment
-  Rewards: the numerical representation of the outcome of each action in the environment.
+
+States: the agent’s internal representation of the environment
+Actions: the possible actions the agent can take in the environment
+Rewards: the numerical representation of the outcome of each action in the environment.
