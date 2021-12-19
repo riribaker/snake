@@ -11,14 +11,13 @@ Rewards: the numerical representation of the outcome of each action in the envir
 
 In Q-learning, instead of explicitly learning a representation for transition probabilities between states, we let the agent observe its environment, choose an action, and obtain some reward.
 
-![Qupdate](img/Qupdate.png)
-<img src="img/Qupdate.png" alt="Q-update formula" width="300">
+<img src="img/Qupdate.png" alt="Q-update formula" width="550">
 
 The Temporal Difference hyperparameter 𝜸 𝛾 allows us to "discount" future rewards, pushing the snake to obtain food quicker. 
 Our learning rate, 𝛼, controls how much our Q estimate should change with each update. 
 
-![Qupdate](img/learningParameter.png)
+<img src="img/learningParameter.png" alt="learning rate" width="350">
 
 We now must implement an exploration policy to ensure some balancing between visiting states we haven't seen before and choosing the action with the maximal Q-value. 
 
-![Qupdate](img/explorationPolicy.png)
+<img src="img/explorationPolicy.png" alt="exploration policy" width="350">
