@@ -7,4 +7,6 @@ We can define a MDP (Markov Decision Process) to model the Q-learning agent's mo
 
 States: the agent’s internal representation of the environment <br />
 Actions: the possible actions the agent can take in the environment <br />
-Rewards: the numerical representation of the outcome of each action in the environment.
+Rewards: the numerical representation of the outcome of each action in the environment. <br />
+
+
