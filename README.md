@@ -9,4 +9,7 @@ States: the agent’s internal representation of the environment <br />
 Actions: the possible actions the agent can take in the environment <br />
 Rewards: the numerical representation of the outcome of each action in the environment. <br />
 
+In Q-learning, instead of explicitly learning a representation for transition probabilities between states, we let the agent observe its environment, choose an action, and obtain some reward.
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
